@@ -11,3 +11,7 @@
             Hammer
         }
         public TrapType type = TrapType.Gate;
+        
+        
+        or use [ShowIf("type", TrapType.Saw)] if you don't want to see the value in the inspector
+        
