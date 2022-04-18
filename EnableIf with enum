@@ -1,0 +1,13 @@
+// The value will be activate depending on the value of enam
+
+    [EnableIf("type", TrapType.Saw)]
+        public float sawMoveDistance;
+        
+        public enum TrapType
+        {
+            Lava,
+            Gate,
+            Saw, 
+            Hammer
+        }
+        public TrapType type = TrapType.Gate;
